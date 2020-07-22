@@ -1,9 +1,52 @@
 *
  .main {
-     background-color: gray; 
+     background-color: #005655; 
 
  }
 
- h1 {
-     background-color: indigo;
- }
+.home {
+    position: fixed;
+}
+
+.home-section {
+    padding: 5%;
+    margin: 10%;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    font-family: sans-serif;   
+}
+
+.back-img {
+    background: rgba(0,0,0.3);
+}
+
+.home-img  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.h1 {
+    padding: 2%;
+    ;
+}
+
+.description {
+    margin-top: 30px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.about {
+    background-color: #AFBBAF;
+    font-size: 1.0rem;
+    text-align: center;
+    display: inline-flex;
+}
+
+.us {
+    padding: 11%;
+}
