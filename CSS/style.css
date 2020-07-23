@@ -54,10 +54,18 @@
     padding: 2%;
 }
 
-.change-animes {
-    background-color: #AFBBAF;
+.media {
+    align-self: center;
 }
 
+.card {
+    background-color: #AFBBAF;
+    
+}
+
+.card-body {
+    background-color: #AFBBAF
+}
 
 footer{
     text-align: center;
@@ -65,4 +73,16 @@ footer{
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     padding: 2%;
+}
+
+.change-animes {
+    border-top-style: solid;
+    border-top-color: #005655;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:  #005655;
+    border-bottom-width: 1px;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
