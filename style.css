@@ -1,7 +1,10 @@
 *
  .main {
      background-color: #005655; 
+ }
 
+ .main-nav {
+    background-color: #005656;
  }
 
 .home {
@@ -17,20 +20,20 @@
     font-family: sans-serif;   
 }
 
-.back-img {
-    background: rgba(0,0,0.3);
+.about-us {
+    text-align: center;
+    background-color: #AFBBAF;
+}
+
+.about {
+    background-color: #AFBBAF;
 }
 
 .home-img  {
     width: 100%;
     display: flex;
-    justify-content: center;
+    
    
-}
-
-.h1 {
-    padding: 2%;
-    ;
 }
 
 .description {
@@ -38,15 +41,28 @@
     margin-bottom: 1.5rem;
     text-align: center;
     margin-top: 45px;
+    margin: 5%;
+    
 }
 
-.about {
-    background-color: #AFBBAF;
-    font-size: 1.0rem;
+.about-use-history {
+   background-color:  #AFBBAF"
+}
+
+.week {
     text-align: center;
-    display: inline-flex;
+    padding: 2%;
 }
 
-.us {
-    padding: 11%;
+.change-animes {
+    background-color: #AFBBAF;
+}
+
+
+footer{
+    text-align: center;
+    background: #005655;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2%;
 }
