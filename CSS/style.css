@@ -1,4 +1,8 @@
 *
+body {
+    position: relative;
+    background-color: black;
+}
  .main {
      background-color: #005655; 
  }
@@ -11,6 +15,10 @@
     position: fixed;
 }
 
+.row.about-title-container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
 .home-section {
     padding: 5%;
     margin: 10%;
@@ -20,9 +28,21 @@
     font-family: sans-serif;   
 }
 
+.about-img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.about-img-container.col-sm {
+    padding-bottom: 2%;
+}
+
 .about-us {
     text-align: center;
     background-color: #AFBBAF;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
 }
 
 .about {
@@ -42,6 +62,7 @@
     text-align: center;
     margin-top: 45px;
     margin: 5%;
+    color: blanchedalmond;
     
 }
 
@@ -58,6 +79,22 @@
     align-self: center;
 }
 
+.change-animes {
+    border-top-style: solid;
+    border-top-color: #005655;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:  #005655;
+    border-bottom-width: 1px;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.anime-img{
+    padding: 10%;
+    
+}
 .card {
     background-color: #AFBBAF;
     
@@ -75,14 +112,3 @@ footer{
     padding: 2%;
 }
 
-.change-animes {
-    border-top-style: solid;
-    border-top-color: #005655;
-    border-top-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color:  #005655;
-    border-bottom-width: 1px;
-    padding: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
