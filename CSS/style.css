@@ -110,6 +110,10 @@ li.nav-item>a.nav-light.nav-link {
     color: white;
 }
 
+#description-scroll {
+    padding: 5%;
+}
+
 .about-use-history {
    background-color:  #AFBBAF"
 }
