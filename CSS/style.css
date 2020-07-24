@@ -31,6 +31,11 @@ li.nav-item>a.nav-light.nav-link {
     padding-bottom: 2%;
 }
 
+
+
+.text-center {
+    padding: 2%;
+}
 .home-page {
     position: relative;
     height: 650px;
@@ -85,6 +90,10 @@ li.nav-item>a.nav-light.nav-link {
     max-width: 100%;
 }
 
+.btn {
+    border-radius: 40%;
+}
+
 .about {
     background-color: #AFBBAF;
 }
@@ -107,7 +116,7 @@ li.nav-item>a.nav-light.nav-link {
 
 .week {
     text-align: center;
-    padding: 2%;
+    padding: 5%;
     
 }
 .week.dark-mode {
