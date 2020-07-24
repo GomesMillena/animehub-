@@ -18,17 +18,17 @@ for (link of links) {
 document.querySelector("#toggleDark").addEventListener("click", toggleDarkMode);
 
 function scrollToElement(e) {
-  e.preventDefault();
+  //e.preventDefault();
   removeOldActions();
 
   this.classList.add("active");
 
-  let hrefArr = this.href.split("#");
+  /*let hrefArr = this.href.split("#");
   const elementToScroll = document.querySelector(`#${hrefArr[hrefArr.length - 1]}`);
   window.scrollTo({
     top: elementToScroll.offsetTop,
     behavior: 'smooth'
-  });
+  });*/
 }
 
 function removeOldActions() {
