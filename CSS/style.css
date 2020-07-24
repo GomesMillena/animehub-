@@ -1,6 +1,9 @@
 *
 body {
     position: relative;
+}
+
+body.dark-mode {
     background-color: black;
 }
  .main {
@@ -15,6 +18,9 @@ body {
     position: fixed;
 }
 
+li.nav-item>a.nav-light.nav-link {
+    color: white;
+}
 .row.about-title-container {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -62,8 +68,10 @@ body {
     text-align: center;
     margin-top: 45px;
     margin: 5%;
-    color: blanchedalmond;
-    
+}
+
+#description.dark-mode {
+    color: white;
 }
 
 .about-use-history {
@@ -73,10 +81,18 @@ body {
 .week {
     text-align: center;
     padding: 2%;
+    
+}
+.week.dark-mode {
+    color: white;
 }
 
 .media {
     align-self: center;
+}
+
+.media.dark-mode {
+    color: white;
 }
 
 .change-animes {
