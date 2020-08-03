@@ -1,283 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="CSS/slick.css" />
-    <link rel="stylesheet" href="CSS/slick-theme.css" />
-    <link rel="stylesheet" href="CSS/style.css" />
-    <title>AnimeHub</title>
-  </head>
-  <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light main-nav">
-      <img class="logo-img" src="img/Logo.png" alt="Logo" />
-      <button
-        class="navbar-toggler"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Alterna navegação"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse nav justify-content-end">
-        <button class="btn btn-dark" id="toggleDark">Dark Mode</button>
 
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link nav-light" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-light" href="#description-scroll"
-              >Descrição</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-light" href="#aboutUs">Quem Somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-light" href="#topWeek">Top week</a>
-          </li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="CSS/slick.css" />
+  <link rel="stylesheet" href="CSS/slick-theme.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <title>AnimeHub</title>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light main-nav">
+    <img class="logo-img" src="img/Logo.png" alt="Logo" />
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav justify-content-end">
+      <button class="btn btn-dark" id="toggleDark">Dark Mode</button>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link nav-light" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-light" href="#description-scroll">Descrição</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-light" href="#aboutUs">Quem Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-light" href="#topWeek">Top week</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main-container">
+    <section class="home-page" id="home">
+      <div class="home-img">
+        <img class="img-fluid" src="img/Demon Slayer.png" alt="Demon Slayer" />
+        <div class="img-shadow"></div>
       </div>
-    </nav>
-
-    <section class="home">
-      <button
-        type="button"
-        class="btn btn-primary"
-        data-toggle="button"
-        aria-pressed="false"
-      ></button>
+      <div class="container">
+        <div class="home-section">
+          <h1>ANIMEHUB</h1>
+          <p>
+            Chegou a plataforma que levará você, à todos os animes que você
+            quiser!!!!
+          </p>
+        </div>
+      </div>
     </section>
 
-    <main class="main-container">
-      <section class="home-page" id="home">
-        <div class="home-img">
-          <img
-            class="img-fluid"
-            src="img/Demon Slayer.png"
-            alt="Demon Slayer"
-          />
-          <div class="img-shadow"></div>
+    <section class="description" id="description">
+      <h2 id="description-scroll">Descrição</h2>
+      <p>
+        Pensando nas dificuldades dos nossos amigos "Otakus" em localizar
+        canais oficiais de streams chega o ANIMEHUB, que possibilitará você sem
+        localizar sem dificuldade qualquer anime!!!
+      </p>
+    </section>
+
+    <section class="about-us-history" id="aboutUs">
+      <div class="about-us container">
+        <div class="row about-title-container">
+          <div class="col-lg">
+            <h2 class="text-center">Quem somos</h2>
+          </div>
         </div>
-        <div class="container">
-          <div class="home-section">
-            <h1>ANIMEHUB</h1>
+        <div class="row align-items-center">
+          <div class="about col-sm">
             <p>
-              Chegou a plataforma que levará você, à todos os animes que você
-              quiser!!!!
+              Somos formados por um time de duas pessoas que vendo a
+              necessidade dos otakus que necessitam localizar plataformas para
+              assistirem seus devidos animes, e entendendo a necessidade dos
+              nossos usuários, criamos o "ANIMEHUB".
+            </p>
+          </div>
+          <div class="col-sm about-img-container">
+            <img src="./img/Boku-no.hero.png" class="about-img" alt="Boku-no" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="change-anime-week container align-items-center" id="topWeek">
+      <div class="row">
+        <h2 class="week col-lg">Animes Top week</h2>
+      </div>
+      <div class="media row align-items-center">
+        <div class="col-sm">
+          <img src="./img/SAO.png" class="align-self-center mr-3" alt="SAO" />
+        </div>
+        <div class="media-body col-sm">
+          <h5 class="">
+            Sword Art Online Alicization War of Underworld
+          </h5>
+          <p class="">
+            Alice, juntamente com Kirito, que perdeu o seu braço direito,
+            vivem agora em silêncio na periferia da cidade natal de Alice,
+            Rulid Village. Alice está a pensar no mundo que ela protegeu com
+            Kirito ao lembrar-se do passado.
+          </p>
+        </div>
+      </div>
+
+      <div class="media row flex-column-reverse flex-md-row align-items-center">
+        <div class="col-sm order-12 .ml-auto">
+          <img src="./img/SAO.png" class="align-self-end mr-3" alt="SAO" />
+        </div>
+        <div class="media-body col-sm order-1 .ml-auto">
+          <h5 class="">
+            Sword Art Online Alicization War of Underworld
+          </h5>
+          <p class="">
+            Alice, juntamente com Kirito, que perdeu o seu braço direito,
+            vivem agora em silêncio na periferia da cidade natal de Alice,
+            Rulid Village. Alice está a pensar no mundo que ela protegeu com
+            Kirito ao lembrar-se do passado.
+          </p>
+        </div>
+      </div>
+      <div class="media row align-items-center">
+        <div class="col-sm">
+          <img src="./img/SAO.png" class="align-self-center mr-3" alt="SAO" />
+        </div>
+        <div class="media-body">
+          <h5 class="">
+            Sword Art Online Alicization War of Underworld
+          </h5>
+          <p class="">
+            Alice, juntamente com Kirito, que perdeu o seu braço direito,
+            vivem agora em silêncio na periferia da cidade natal de Alice,
+            Rulid Village. Alice está a pensar no mundo que ela protegeu com
+            Kirito ao lembrar-se do passado.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="change-animes">
+      <div class="your-class card-deck">
+        <div class="card">
+          <img src="./img/Kaichou.png" class="card-img-top anime-img" alt="Usui" />
+          <div class="card-body">
+            <h5 class="card-title">Kaichou wa Maid Sama</h5>
+            <p class="card-text">
+              Ayuzawa Misaki é a presidente do conselho estudantil da escola
+              Seika, uma escola antes masculina e que agora é mista. Ou seja,
+              quase todos são garotos. E para proteger as garotas, ela briga
+              com os garotos todos os dias.
             </p>
           </div>
         </div>
-      </section>
 
-      <section class="description" id="description">
-        <h2 id="description-scroll">Descrição</h2>
-        <p>
-          Pensando nas dificuldades dos nossos amigos "Otakus" em localizar
-          canais oficiais de streams chega o ANIMEHUB, que possibilitará você sem
-          localizar sem dificuldade qualquer anime!!!
-        </p>
-      </section>
-
-      <section class="about-us-history" id="aboutUs">
-        <div class="about-us container">
-          <div class="row about-title-container">
-            <div class="col-lg">
-              <h2 class="text-center">Quem somos</h2>
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div class="about col-sm">
-              <p>
-                Somos formados por um time de duas pessoas que vendo a
-                necessidade dos otakus que necessitam localizar plataformas para
-                assistirem seus devidos animes, e entendendo a necessidade dos
-                nossos usuários, criamos o "ANIMEHUB".
-              </p>
-            </div>
-            <div class="col-sm about-img-container">
-              <img
-                src="./img/Boku-no.hero.png"
-                class="about-img"
-                alt="Boku-no"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        class="change-anime-week container align-items-center"
-        id="topWeek"
-      >
-        <div class="row">
-          <h2 class="week col-lg">Animes Top week</h2>
-        </div>
-        <div class="media row align-items-center">
-          <div class="col-sm">
-            <img src="./img/SAO.png" class="align-self-center mr-3" alt="SAO" />
-          </div>
-          <div class="media-body col-sm">
-            <h5 class="">
-              Sword Art Online Alicization War of Underworld
-            </h5>
-            <p class="">
-              Alice, juntamente com Kirito, que perdeu o seu braço direito,
-              vivem agora em silêncio na periferia da cidade natal de Alice,
-              Rulid Village. Alice está a pensar no mundo que ela protegeu com
-              Kirito ao lembrar-se do passado.
+        <div class="card">
+          <img src="./img/Science.png" class="card-img-top anime-img" alt="best-anime" />
+          <div class="card-body">
+            <h5 class="card-title">Science fell in love</h5>
+            <p class="card-text">
+              Ayame estuda na Universidade de Saitama, e
+              resolveu chamar seu colega de laboratório, Yukimura, pra
+              sair.Com isso em mente, o casal envolve o resto do
+              laboratório inteiro em experimentos para comprovar a existência
+              do amor.
             </p>
           </div>
         </div>
 
-        <div
-          class="media row flex-column-reverse flex-md-row align-items-center"
-        >
-          <div class="col-sm order-12 .ml-auto">
-            <img src="./img/SAO.png" class="align-self-end mr-3" alt="SAO" />
-          </div>
-          <div class="media-body col-sm order-1 .ml-auto">
-            <h5 class="">
-              Sword Art Online Alicization War of Underworld
-            </h5>
-            <p class="">
-              Alice, juntamente com Kirito, que perdeu o seu braço direito,
-              vivem agora em silêncio na periferia da cidade natal de Alice,
-              Rulid Village. Alice está a pensar no mundo que ela protegeu com
-              Kirito ao lembrar-se do passado.
+        <div class="card">
+          <img src="./img/Gon.png" class="card-img-top anime-img" alt="HunterxHunter" />
+          <div class="card-body">
+            <h5 class="card-title">HunterxHunter</h5>
+            <p class="card-text">
+              Conta a história de Gon Freecs, um garoto de 12 anos que sai da
+              Ilha da Baleia para tornar-se um Hunter e procurar seu pai, que
+              também é um Hunter, e que o deixou aos cuidados da tia quando
+              Gon ainda era um bebê.
             </p>
           </div>
         </div>
-        <div class="media row align-items-center">
-          <div class="col-sm">
-            <img src="./img/SAO.png" class="align-self-center mr-3" alt="SAO" />
-          </div>
-          <div class="media-body">
-            <h5 class="">
-              Sword Art Online Alicization War of Underworld
-            </h5>
-            <p class="">
-              Alice, juntamente com Kirito, que perdeu o seu braço direito,
-              vivem agora em silêncio na periferia da cidade natal de Alice,
-              Rulid Village. Alice está a pensar no mundo que ela protegeu com
-              Kirito ao lembrar-se do passado.
+        <div class="card">
+          <img src="./img/naruto.png" class="card-img-top anime-img" alt="naruto" />
+          <div class="card-body">
+            <h5 class="card-title">Naruto</h5>
+            <p class="card-text">
+              Naruto era um órfão que, quando era um bebê, teve um mostro
+              conhecido como raposa de nove caudas selada dendro de seu corpo
+              pelo seu pai Minato Namikaze, o líder dá força ninja do país do
+              fogo, ao custo de sua própria vida.
             </p>
           </div>
         </div>
-      </section>
-
-      <section class="change-animes">
-        <div class="your-class card-deck">
-          <div class="card">
-            <img
-              src="./img/Kaichou.png"
-              class="card-img-top anime-img"
-              alt="Usui"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Kaichou wa Maid Sama</h5>
-              <p class="card-text">
-                Ayuzawa Misaki é a presidente do conselho estudantil da escola
-                Seika, uma escola antes masculina e que agora é mista. Ou seja,
-                quase todos são garotos. E para proteger as garotas, ela briga
-                com os garotos todos os dias.
-              </p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img
-              src="./img/Science.png"
-              class="card-img-top anime-img"
-              alt="best-anime"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Science fell in love</h5>
-              <p class="card-text">
-                Ayame estuda na Universidade de Saitama, e
-                resolveu chamar seu colega de laboratório, Yukimura, pra
-                sair.Com isso em mente, o casal envolve o resto do
-                laboratório inteiro em experimentos para comprovar a existência
-                do amor.
-              </p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img
-              src="./img/Gon.png"
-              class="card-img-top anime-img"
-              alt="HunterxHunter"
-            />
-            <div class="card-body">
-              <h5 class="card-title">HunterxHunter</h5>
-              <p class="card-text">
-                Conta a história de Gon Freecs, um garoto de 12 anos que sai da
-                Ilha da Baleia para tornar-se um Hunter e procurar seu pai, que
-                também é um Hunter, e que o deixou aos cuidados da tia quando
-                Gon ainda era um bebê.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="./img/naruto.png"
-              class="card-img-top anime-img"
-              alt="naruto"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Naruto</h5>
-              <p class="card-text">
-                Naruto era um órfão que, quando era um bebê, teve um mostro
-                conhecido como raposa de nove caudas selada dendro de seu corpo
-                pelo seu pai Minato Namikaze, o líder dá força ninja do país do
-                fogo, ao custo de sua própria vida.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            <img
-              src="./img/Science.png"
-              class="card-img-top anime-img"
-              alt="Science"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Science fell in love</h5>
-              <p class="card-text">
-                Ayame estuda na Universidade de Saitama, e
-                resolveu chamar seu colega de laboratório, Yukimura, pra
-                sair.Com isso em mente, o casal envolve o resto do
-                laboratório inteiro em experimentos para comprovar a existência
-                do amor.
-              </p>
-            </div>
+        <div class="card">
+          <img src="./img/Science.png" class="card-img-top anime-img" alt="Science" />
+          <div class="card-body">
+            <h5 class="card-title">Science fell in love</h5>
+            <p class="card-text">
+              Ayame estuda na Universidade de Saitama, e
+              resolveu chamar seu colega de laboratório, Yukimura, pra
+              sair.Com isso em mente, o casal envolve o resto do
+              laboratório inteiro em experimentos para comprovar a existência
+              do amor.
+            </p>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
+  </main>
 
-    <footer>Todos os direitos reservados 2020 Millena Gomes</footer>
+  <footer>Todos os direitos reservados 2020 Millena Gomes</footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.min.js"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <script src="JS/slick.min.js"></script>
-    <script src="JS/index.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <script src="JS/slick.min.js"></script>
+  <script src="JS/index.js"></script>
+</body>
+
 </html>
