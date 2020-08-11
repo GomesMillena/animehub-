@@ -97,11 +97,9 @@ li.nav-item>a.nav-light.nav-link {
 }
 
 .description {
-    margin-top: 30px;
-    margin-bottom: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 0.5rem;
     text-align: center;
-    margin-top: 45px;
-    margin: 5%;
 }
 
 #description.dark-mode {
@@ -109,7 +107,15 @@ li.nav-item>a.nav-light.nav-link {
 }
 
 #description-scroll {
-    padding: 5%;
+    padding: 4%;
+    margin: 2%;
+    text-align: center;
+}
+
+.description_paragraph {
+    text-align: center;
+    margin: 3%;
+    padding: 0%;
 }
 
 .about-use-history {
