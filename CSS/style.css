@@ -73,6 +73,7 @@ li.nav-item>a.nav-light.nav-link {
 .about-img {
     max-width: 100%;
     max-height: 100%;
+    border-radius: 1%;
 }
 
 .about-img-container.col-sm {
@@ -143,6 +144,13 @@ li.nav-item>a.nav-light.nav-link {
     color: white;
 }
 
+.align-self-center {
+    border-radius: 5%;
+}
+
+.align-self-end {
+    border-radius: 5%;
+}
 .change-animes {
     border-top-style: solid;
     border-top-color: #005655;
